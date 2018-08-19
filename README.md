@@ -22,3 +22,10 @@ Sample scripts and SQL commands for RedShift
 | Varchar DataType | Comments |
 | Char DataType| Flag(Y\N)|
 | Decimal Datatype | Price |
+
+## UPDATE and INSERT Operations
+
+* **UPSERT (combination of UPDATE and INSERT) not allowed **
+* Use staging tables instead
+
+Ref - https://docs.aws.amazon.com/redshift/latest/dg/t_updating-inserting-using-staging-tables-.html
