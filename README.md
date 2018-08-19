@@ -9,6 +9,7 @@ Sample scripts and SQL commands for RedShift
 | RedShift Vacuum Utility | https://github.com/awslabs/amazon-redshift-utils/tree/master/src/AnalyzeVacuumUtility - Only for table data under 700 GB|
 | RedShift Monitoring | https://github.com/awslabs/amazon-redshift-monitoring |
 | S3 manifest File Over SSH | For Connections - https://docs.aws.amazon.com/redshift/latest/dg/copy-parameters-data-source-ssh.html#copy-parameters-data-source-ssh-parameters |
+| RedShift Deep Copy | https://docs.aws.amazon.com/redshift/latest/dg/performing-a-deep-copy.html |
 
 ## WLM
 
