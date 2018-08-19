@@ -10,6 +10,7 @@ Sample scripts and SQL commands for RedShift
 | RedShift Monitoring | https://github.com/awslabs/amazon-redshift-monitoring |
 | S3 manifest File Over SSH | For Connections - https://docs.aws.amazon.com/redshift/latest/dg/copy-parameters-data-source-ssh.html#copy-parameters-data-source-ssh-parameters |
 | RedShift Deep Copy | https://docs.aws.amazon.com/redshift/latest/dg/performing-a-deep-copy.html |
+| RedShift Snapshot Manager | https://github.com/awslabs/amazon-redshift-utils/tree/master/src/SnapshotManager#amazon-redshift-snapshot-manager |
 
 ## WLM
 
