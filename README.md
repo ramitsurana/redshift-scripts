@@ -6,6 +6,7 @@ Sample scripts and SQL commands for RedShift
 | Utility   |      Reference      |
 |----------|:-------------:|
 | RedShift Admin Scripts |  https://github.com/awslabs/amazon-redshift-utils/tree/master/src |
+| RedShift Monitoring | https://github.com/awslabs/amazon-redshift-monitoring |
 | S3 manifest File Over SSH | For Connections - https://docs.aws.amazon.com/redshift/latest/dg/copy-parameters-data-source-ssh.html#copy-parameters-data-source-ssh-parameters |
 
 ## WLM
