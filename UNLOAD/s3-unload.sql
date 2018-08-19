@@ -29,3 +29,11 @@ to 's3://mybucket/venue_pipe_'
 iam_role 'arn:aws:iam::0123456789012:role/MyRedshiftRole'
 manifest 
 allowoverwrite;
+
+-- With File Size Limits
+
+unload ('select * from venue')
+to 's3://mybucket/tickit/unload/venue_' 
+iam_role 'arn:aws:iam::0123456789012:role/MyRedshiftRole'
+parallel off
+maxfilesize 100 mb;
