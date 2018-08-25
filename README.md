@@ -11,6 +11,7 @@ Sample scripts and SQL commands for RedShift
 | S3 manifest File Over SSH | For Connections - https://docs.aws.amazon.com/redshift/latest/dg/copy-parameters-data-source-ssh.html#copy-parameters-data-source-ssh-parameters |
 | RedShift Deep Copy | https://docs.aws.amazon.com/redshift/latest/dg/performing-a-deep-copy.html |
 | RedShift Snapshot Manager | https://github.com/awslabs/amazon-redshift-utils/tree/master/src/SnapshotManager#amazon-redshift-snapshot-manager |
+| Redshift Database Loader | https://github.com/awslabs/aws-lambda-redshift-loader - Load Data from S3 to RedShift using AWS Lambda |
 
 ## WLM
 
