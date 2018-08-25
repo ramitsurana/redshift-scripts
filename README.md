@@ -33,3 +33,21 @@ Sample scripts and SQL commands for RedShift
 * Use staging tables instead
 
 Ref - https://docs.aws.amazon.com/redshift/latest/dg/t_updating-inserting-using-staging-tables-.html
+
+## Key Distribution Styles
+
+| Key Name   |      Usage      |  Data Distribution |
+|----------|:-------------:|:----------|
+| ALL Distribution Style |  Tables that change infrequently | entire table is distributed to every node. |
+| EVEN Distribution Style | - | - |
+| DEFAULT Distribution Style | - | - |
+| KEY Distribution Style | Tables that need to be JOIN for further analysis |  If you distribute a pair of tables on the joining keys, the leader node collocates the rows on the slices according to the values in the joining columns so that matching values from the common columns are physically stored together. | 
+
+## COPY command only supports
+
+* S3
+* Dynamodb
+* EMR/EC2 Instance
+
+**NOTE**
+When you use the UNLOAD command in Redshift to write data to S3, it automatically creates files using Amazon S3 server-side encryption with AWS-managed encryption keys (SSE-S3).
