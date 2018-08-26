@@ -51,3 +51,17 @@ Ref - https://docs.aws.amazon.com/redshift/latest/dg/t_updating-inserting-using-
 
 **NOTE**
 When you use the UNLOAD command in Redshift to write data to S3, it automatically creates files using Amazon S3 server-side encryption with AWS-managed encryption keys (SSE-S3).
+
+## Encryption-at-rest
+
+| CloudHSM  |      KMS      |
+|----------|:-------------:|
+| Hourly based on region |  Usage based pricing |
+| Need to setup HA & durability | Highly Available and durable |
+| Single Tenant | Multi-tenant |
+| Customer Managed | AWS Managed |
+| EAL4 + U.S. Gov. NIST FIPS 140-2 Certified | Auditing |
+| Symmetric and Asymmetric Encryption | Symmetric Encryption Only |
+
+
+
