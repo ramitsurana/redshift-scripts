@@ -63,5 +63,7 @@ When you use the UNLOAD command in Redshift to write data to S3, it automaticall
 | EAL4 + U.S. Gov. NIST FIPS 140-2 Certified | Auditing |
 | Symmetric and Asymmetric Encryption | Symmetric Encryption Only |
 
+Symmetric encryption - same keys are used to perform encryption and decryption.
 
-
+**Note**
+Once you enable encryption for a Redshift cluster upon launch, you can cannot then change it to an unencrypted cluster. You’ll have to unload the data and reload the data into a new cluster with your new encryption setting.
