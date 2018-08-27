@@ -39,9 +39,10 @@ Ref - https://docs.aws.amazon.com/redshift/latest/dg/t_updating-inserting-using-
 | Key Name   |      Usage      |  Data Distribution |
 |----------|:-------------:|:----------|
 | ALL Distribution Style |  Tables that change infrequently | entire table is distributed to every node. |
-| EVEN Distribution Style | - | - |
-| DEFAULT Distribution Style | - | - |
+| EVEN Distribution Style | Appropriate when a table does not participate in joins | EVEN distribution is the default distribution style. |
 | KEY Distribution Style | Tables that need to be JOIN for further analysis |  If you distribute a pair of tables on the joining keys, the leader node collocates the rows on the slices according to the values in the joining columns so that matching values from the common columns are physically stored together. | 
+
+Ref - https://docs.aws.amazon.com/redshift/latest/dg/c_choosing_dist_sort.html
 
 ## COPY command only supports
 
